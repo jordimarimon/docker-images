@@ -1,6 +1,6 @@
 # This image exists because of this: https://github.com/nodejs/docker-node/issues/586
 
-FROM node:16.9.1-alpine3.11
+FROM node:16.13-alpine3.15
 
 # Update packages
 RUN apk update && apk upgrade
